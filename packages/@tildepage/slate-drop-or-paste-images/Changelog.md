@@ -9,7 +9,7 @@ This document maintains a list of changes. Until `1.0.0` is released, breaking c
 - Update for `slate@0.43`.
 - Add `event` and contextual `source` argument to `insertImage` to provide hinting on how
 image was parsed.
-- Add `acceptableTransferTypes` option to filter which events are handled or
+- Add `transferTypes` option to filter which events are handled or
 skipped.
 
 ---

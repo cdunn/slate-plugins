@@ -15,7 +15,7 @@ import { getEventTransfer, getEventRange } from 'slate-react'
  */
 
 function DropOrPasteImages(options = {}) {
-  let { insertImage, extensions, acceptableTransferTypes } = options
+  let { insertImage, extensions, transferTypes } = options
 
   if (options.applyTransform) {
     logger.deprecate(
@@ -60,8 +60,8 @@ function DropOrPasteImages(options = {}) {
     const range = getEventRange(event, editor)
 
     if (
-      !acceptableTransferTypes ||
-      acceptableTransferTypes.includes(transfer.type)
+      !transferTypes ||
+      transferTypes.includes(transfer.type)
     ) {
       switch (transfer.type) {
         case 'files':
@@ -92,13 +92,21 @@ function DropOrPasteImages(options = {}) {
   function onInsertFiles(event, editor, next, transfer, range) {
     const { files } = transfer
 
-    for (const file of files) {
+    const filteredFiles = !extensions
+      ? files
+      : files.filter(file => {
+          const type = file.type
+          const [, ext] = type.split('/')
+          return ext && matchExt(ext)
+        })
+
+    if (!filteredFiles.length) {
+      return next()
+    }
+
+    for (const file of filteredFiles) {
       const type = file.type
       const [, ext] = type.split('/')
-
-      if (extensions) {
-        if (!matchExt(ext)) continue
-      }
 
       if (range) {
         editor.select(range)

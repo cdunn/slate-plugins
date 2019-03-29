@@ -1,4 +1,4 @@
-import DropOrPasteImages from 'slate-drop-or-paste-images'
+import DropOrPasteImages from '@tildepage/slate-drop-or-paste-images'
 import React from 'react'
 import initialValue from './value.json'
 import { Editor } from 'slate-react'
@@ -46,7 +46,7 @@ class Image extends React.Component {
 class Example extends React.Component {
   plugins = [
     DropOrPasteImages({
-      insertImage: (_event, transform, file, _context) => {
+      insertImage: (event, transform, file, context) => {
         return transform.insertBlock({
           type: 'image',
           isVoid: true,
