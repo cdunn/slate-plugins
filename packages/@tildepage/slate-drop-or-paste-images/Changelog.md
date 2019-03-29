@@ -4,6 +4,10 @@ This document maintains a list of changes. Until `1.0.0` is released, breaking c
 
 ---
 
+### `0.11.0` — March 29, 2019
+
+- Fork to `@tildepage/slate-drop-or-paste-images` to keep updated
+
 ### `0.10.0` — November 19, 2018
 
 - Update for `slate@0.43`.
