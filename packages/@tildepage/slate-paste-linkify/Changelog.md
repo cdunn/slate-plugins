@@ -4,6 +4,17 @@ This document maintains a list of changes. Until `1.0.0` is released, breaking c
 
 ---
 
+### `0.9.0` — March 29, 2019
+
+- Fork to `@tildepage/slate-paste-linkify` to keep updated
+
+
+### `0.8.0` — February 3, 2019
+
+- Add `skip` function option
+
+---
+
 ### `0.7.0` — October 10, 2018
 
 - Change to use commands and queries instead of previous options.

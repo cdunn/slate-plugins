@@ -2,11 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { HashRouter, NavLink, Route, Redirect, Switch } from 'react-router-dom'
 
-import AutoReplace from './slate-auto-replace'
-import CollapseOnEscape from './slate-collapse-on-escape'
 import DropOrPasteImages from './slate-drop-or-paste-images'
 import PasteLinkify from './slate-paste-linkify'
-import SoftBreak from './slate-soft-break'
 
 /**
  * Examples.
@@ -15,11 +12,8 @@ import SoftBreak from './slate-soft-break'
  */
 
 const EXAMPLES = [
-  ['Auto Replace', AutoReplace, '/slate-auto-replace'],
-  ['Collapse on Escape', CollapseOnEscape, '/slate-collapse-on-escape'],
   ['Drop/Paste Images', DropOrPasteImages, '/slate-drop-or-paste-images'],
   ['Paste Linkify', PasteLinkify, '/slate-paste-linkify'],
-  ['Soft Break', SoftBreak, '/slate-soft-break'],
 ]
 
 /**

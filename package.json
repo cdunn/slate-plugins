@@ -2,7 +2,7 @@
   "private": true,
   "name": "slate-plugins",
   "workspaces": [
-    "packages/*"
+    "packages/@tildepage/*"
   ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -55,12 +55,8 @@
     "uglifyify": "^3.0.2"
   },
   "peerDependencies": {
-    "slate-auto-replace": "*",
-    "slate-collapse-on-escape": "*",
     "slate-drop-or-paste-images": "*",
-    "slate-paste-linkify": "*",
-    "slate-soft-break": "*",
-    "slate-when": "*"
+    "slate-paste-linkify": "*"
   },
   "scripts": {
     "build": "yarn build:rollup && yarn build:parcel",
