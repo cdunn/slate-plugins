@@ -4033,9 +4033,10 @@ is-glob@^4.0.0:
   dependencies:
     is-extglob "^2.1.1"
 
-is-hotkey@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/is-hotkey/-/is-hotkey-0.1.3.tgz#8a129eec16f3941bd4f37191e02b9c3e91950549"
+is-hotkey@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/is-hotkey/-/is-hotkey-0.1.4.tgz#c34d2c85d6ec8d09a871dcf71931c8067a824c7d"
+  integrity sha512-Py+aW4r5mBBY18TGzGz286/gKS+fCQ0Hee3qkaiSmEPiD0PqFpe0wuA3l7rTOUKyeXl8Mxf3XzJxIoTlSv+kxA==
 
 is-image@^1.0.1:
   version "1.0.1"
@@ -6123,7 +6124,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4, prop-types@^15.5.7, prop-types@~15.5.7:
+prop-types@^15.5.4:
   version "15.5.8"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
   dependencies:
@@ -6285,14 +6286,15 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^15.4.2:
-  version "15.5.4"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.5.4.tgz#ba0c28786fd52ed7e4f2135fe0288d462aef93da"
+react-dom@^16.0.0:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
+  integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
   dependencies:
-    fbjs "^0.8.9"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "~15.5.7"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.6"
 
 react-immutable-proptypes@^2.1.0:
   version "2.1.0"
@@ -6335,14 +6337,15 @@ react-router@^4.1.1:
     prop-types "^15.5.4"
     warning "^3.0.0"
 
-react@^15.4.2:
-  version "15.5.4"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.5.4.tgz#fa83eb01506ab237cdc1c8c3b1cea8de012bf047"
+react@^16.0.0:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
+  integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
   dependencies:
-    fbjs "^0.8.9"
     loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.7"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.6"
 
 read-cmd-shim@^1.0.1:
   version "1.0.1"
@@ -6842,6 +6845,14 @@ sax@^1.2.4, sax@~1.2.1, sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
+scheduler@^0.13.6:
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
+  integrity sha512-IWnObHt413ucAYKsD9J1QShUKkbKLQQHdxRyw73sw4FN26iWr3DY/H34xGPe4nmL1DwXyWmSWmMrA9TfQbE/XQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+
 selection-is-backward@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/selection-is-backward/-/selection-is-backward-1.0.0.tgz#97a54633188a511aba6419fc5c1fa91b467e6be1"
@@ -6974,15 +6985,17 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
-slate-base64-serializer@^0.2.72:
-  version "0.2.72"
-  resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.2.72.tgz#0919a6fa220287ba6367ad909fb99e98196b6ce9"
+slate-base64-serializer@^0.2.105:
+  version "0.2.105"
+  resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.2.105.tgz#ec45a766b709d223f2670a8c8a0671f068a84e52"
+  integrity sha512-Ld3QMJmQwkuQkrYK90StG/5BtbvRsqmTs0JDNNND+Pyo0Cf/XopUufvYlRqe38YMtjGMwZaGXiNOnSJvTy7LmA==
   dependencies:
     isomorphic-base64 "^1.0.2"
 
-slate-dev-environment@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/slate-dev-environment/-/slate-dev-environment-0.2.0.tgz#c43f4a5e13cccc16ad4c3015c8ad182b6e5b5b3a"
+slate-dev-environment@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/slate-dev-environment/-/slate-dev-environment-0.2.2.tgz#bd8946e1fe4cf5447060c84a362a1d026ed8b77f"
+  integrity sha512-JZ09llrRQu6JUsLJCUlGC0lB1r1qIAabAkSd454iyYBq6lDuY//Bypi3Jo8yzIfzZ4+mRLdQvl9e8MbeM9l48Q==
   dependencies:
     is-in-browser "^1.1.3"
 
@@ -6991,28 +7004,37 @@ slate-dev-logger@^0.1.0:
   resolved "https://registry.yarnpkg.com/slate-dev-logger/-/slate-dev-logger-0.1.43.tgz#77f6ca7207fcbf453a5516f3aa8b19794d1d26dc"
   integrity sha512-GkcPMGzmPVm85AL+jaKnzhIA0UH9ktQDEIDM+FuQtz+TAPcpPCQiRAaZ6I2p2uD0Hq9bImhKSCtHIa0qRxiVGw==
 
-slate-hotkeys@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/slate-hotkeys/-/slate-hotkeys-0.2.5.tgz#5e78e535f1305cea2664c0e56a082e9f4919bbc4"
+slate-hotkeys@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/slate-hotkeys/-/slate-hotkeys-0.2.9.tgz#0cc9eb750a49ab9ef11601305b7c82b5402348e3"
+  integrity sha512-y+C/s5vJEmBxo8fIqHmUcdViGwALL/A6Qow3sNG1OHYD5SI11tC2gfYtGbPh+2q0H7O4lufffCmFsP5bMaDHqA==
   dependencies:
-    is-hotkey "^0.1.3"
-    slate-dev-environment "^0.2.0"
+    is-hotkey "0.1.4"
+    slate-dev-environment "^0.2.2"
 
 slate-plain-serializer@^0.6.0:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.6.2.tgz#8d406f9523d7ba219d14bf300d30d7e093430247"
 
-slate-plain-serializer@^0.6.11:
-  version "0.6.11"
-  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.6.11.tgz#a8339602c04d119e7aee3a212791682caf2278ab"
+slate-plain-serializer@^0.7.4:
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.7.4.tgz#17c8d6b8444da21b610cfc1606b0e7b0806dc8b9"
+  integrity sha512-F64rUnaLfJ6jyj5vjuFBD0I2c2gOFYELAuDoshHHu27ensIpZzd2hs0oHJkqGHjngd3lKx6/DRHoWADHGAdPHQ==
 
-slate-prop-types@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.5.2.tgz#89e6e46410f3b7856546190c15c115e3549701b7"
+slate-prop-types@^0.5.35:
+  version "0.5.35"
+  resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.5.35.tgz#03a57edd026ca72248249e0116c6d21d7810cacf"
+  integrity sha512-tsogOEp2hlFqW7Rjnda9yNiUhVIzM/jfjy+7EVNJkhUR5BmjbU6xhJHng51gFrvRrCzjr7eWmX0KfS27REGLLQ==
 
-slate-react@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.19.2.tgz#02e62928e328515c1bfd85d1cfc2f4e54c608974"
+slate-react-placeholder@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/slate-react-placeholder/-/slate-react-placeholder-0.2.2.tgz#c4d84177a6898b6fc580dcb62f0a5055d089c68b"
+  integrity sha512-DQhoVN71jJPiWPiGdkyZKIWnzwGfRi/ZqjCfljqRxKryPo6D+xYlAjoyqypClZsHI+KenuS/0h2tc+04HANGWw==
+
+slate-react@^0.22.0:
+  version "0.22.2"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.22.2.tgz#5e7f152beb7599df590d39f4a6bff5274d0013ff"
+  integrity sha512-e1LRUuo56PXTVEUN4nxREkDXec7InOeqY07Sab4fbJE2gM98RGAxX3UtzZBaDvKpJGtVfqUG9Rz3MUg96q/ddA==
   dependencies:
     debug "^3.1.0"
     get-window "^1.1.1"
@@ -7022,17 +7044,19 @@ slate-react@^0.19.2:
     prop-types "^15.5.8"
     react-immutable-proptypes "^2.1.0"
     selection-is-backward "^1.0.0"
-    slate-base64-serializer "^0.2.72"
-    slate-dev-environment "^0.2.0"
-    slate-hotkeys "^0.2.5"
-    slate-plain-serializer "^0.6.11"
-    slate-prop-types "^0.5.2"
+    slate-base64-serializer "^0.2.105"
+    slate-dev-environment "^0.2.2"
+    slate-hotkeys "^0.2.9"
+    slate-plain-serializer "^0.7.4"
+    slate-prop-types "^0.5.35"
+    slate-react-placeholder "^0.2.2"
     tiny-invariant "^1.0.1"
     tiny-warning "^0.0.3"
 
-slate@^0.42.2:
-  version "0.42.2"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.42.2.tgz#9e5c46518da385faf6adf89cd06967c3d69da054"
+slate@^0.47.0:
+  version "0.47.2"
+  resolved "https://registry.yarnpkg.com/slate/-/slate-0.47.2.tgz#c943a9795fb2cb2aba54fd862fa73e5e76d3e148"
+  integrity sha512-hu8EeL1fmVT6Etxi//02v+p60Xo0pRkWwApQkyqqdZpc6F9CHgcMpvaA0twFHGmpVI3v2sHDXk7efYJvgJO8sw==
   dependencies:
     debug "^3.1.0"
     direction "^0.1.5"

@@ -7,11 +7,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "Try each of the following:"
-              }
-            ]
+            "text": "Try each of the following:"
           }
         ]
       },
@@ -21,11 +17,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "- Dragging and dropping an image from your computer's filesystem."
-              }
-            ]
+            "text": "- Dragging and dropping an image from your computer's filesystem."
           }
         ]
       },
@@ -35,11 +27,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "- Dragging and dropping an image from another website."
-              }
-            ]
+            "text": "- Dragging and dropping an image from another website."
           }
         ]
       },
@@ -49,11 +37,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "- Dragging and dropping a URL to an image on the web."
-              }
-            ]
+            "text": "- Dragging and dropping a URL to an image on the web."
           }
         ]
       },
@@ -63,11 +47,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "- Pasting an image that was copied from your computer's filesystem."
-              }
-            ]
+            "text": "- Pasting an image that was copied from your computer's filesystem."
           }
         ]
       },
@@ -77,11 +57,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "- Pasting an image from another website."
-              }
-            ]
+            "text": "- Pasting an image from another website."
           }
         ]
       },
@@ -91,11 +67,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "- Pasting a URL to an image on the web."
-              }
-            ]
+            "text": "- Pasting a URL to an image on the web."
           }
         ]
       }

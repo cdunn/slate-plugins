@@ -1,7 +1,7 @@
 {
   "name": "@tildepage/slate-drop-or-paste-images",
   "description": "A Slate plugin that inserts images on drop or paste.",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "license": "MIT",
   "repository": "git://github.com/cdunn/slate-plugins.git",
   "main": "lib/slate-drop-or-paste-images.js",
@@ -21,8 +21,8 @@
     "slate-dev-logger": "^0.1.0"
   },
   "peerDependencies": {
-    "slate": ">=0.43.0",
-    "slate-react": ">=0.19.3"
+    "slate": ">=0.47.0",
+    "slate-react": ">=0.22.0"
   },
   "keywords": [
     "slate"

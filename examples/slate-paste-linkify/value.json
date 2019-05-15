@@ -7,11 +7,7 @@
         "nodes": [
           {
             "object": "text",
-            "leaves": [
-              {
-                "text": "Try selecting text and then pasting a URL."
-              }
-            ]
+            "text": "Try selecting text and then pasting a URL."
           }
         ]
       }
